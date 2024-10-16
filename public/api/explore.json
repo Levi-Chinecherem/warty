@@ -1,0 +1,11 @@
+[
+    { "id": 1, "type": "image", "src": "/images/l1.jpg", "alt": "Beautiful Landscape 1" },
+    { "id": 2, "type": "image", "src": "/images/l2.jpg", "alt": "Beautiful Landscape 2" },
+    { "id": 3, "type": "video", "src": "https://example.com/video1.mp4", "alt": "Amazing Nature Video 1" },
+    { "id": 4, "type": "image", "src": "/images/l3.jpg", "alt": "Beautiful Landscape 3" },
+    { "id": 5, "type": "video", "src": "https://example.com/video2.mp4", "alt": "Stunning Scenery Video 2" },
+    { "id": 6, "type": "image", "src": "/images/l4.jpg", "alt": "Beautiful Landscape 4" },
+    { "id": 7, "type": "image", "src": "/images/p1.jpg", "alt": "Beautiful Landscape 5" },
+    { "id": 8, "type": "image", "src": "/images/p2.jpg", "alt": "Beautiful Landscape 6" },
+    { "id": 9, "type": "image", "src": "/images/p3.jpg", "alt": "Beautiful logo" }
+]
