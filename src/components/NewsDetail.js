@@ -36,7 +36,7 @@ const NewsDetail = () => {
         </button>
         <h2 className="neon-text text-3xl mb-4">{article.title}</h2>
         <p className="text-gray-400 mb-2">Date: {article.date}</p>
-        <div className="text-justify text-lg text-white mb-6 leading-relaxed">
+        <div className="text-left text-lg text-white mb-6 leading-relaxed">
           {article.content}
         </div>
         <p className="text-gray-400 mt-6">Author: WARTY</p>
