@@ -7,5 +7,8 @@
     { "id": 6, "type": "image", "src": "/images/l4.jpg", "alt": "Beautiful Landscape 4" },
     { "id": 7, "type": "image", "src": "/images/p1.jpg", "alt": "Beautiful Landscape 5" },
     { "id": 8, "type": "image", "src": "/images/p2.jpg", "alt": "Beautiful Landscape 6" },
-    { "id": 9, "type": "image", "src": "/images/p3.jpg", "alt": "Beautiful logo" }
+    { "id": 9, "type": "image", "src": "/images/p3.jpg", "alt": "Beautiful logo" },
+    { "id": 10, "type": "image", "src": "/images/l5.jpg", "alt": "Beautiful logo" },
+    { "id": 11, "type": "image", "src": "/images/l6.jpg", "alt": "Beautiful logo" },
+    { "id": 12, "type": "image", "src": "/images/l7.jpg", "alt": "Beautiful logo" }
 ]
