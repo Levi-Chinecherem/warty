@@ -26,14 +26,21 @@ const NewsDetail = () => {
   }
 
   return (
-    <div className="p-6">
-      <button onClick={() => navigate(-1)} className="text-gray-400 hover:text-yellow-300 mb-4">
-        &larr; Back to News
-      </button>
-      <h2 className="neon-text text-3xl mb-4">{article.title}</h2>
-      <p className="text-gray-400 mb-2">Date: {article.date}</p>
-      <p className="text-lg text-white mb-6">{article.content}</p>
-      <p className="text-gray-400 mb-2">Author: WARTY</p>
+    <div className="container mx-auto p-6 max-w-3xl">
+      <div className="bg-gray-800 p-8 rounded-lg shadow-lg">
+        <button
+          onClick={() => navigate(-1)}
+          className="text-gray-400 hover:text-yellow-300 mb-4"
+        >
+          &larr; Back to News
+        </button>
+        <h2 className="neon-text text-3xl mb-4">{article.title}</h2>
+        <p className="text-gray-400 mb-2">Date: {article.date}</p>
+        <div className="text-justify text-lg text-white mb-6 leading-relaxed">
+          {article.content}
+        </div>
+        <p className="text-gray-400 mt-6">Author: WARTY</p>
+      </div>
     </div>
   );
 };
